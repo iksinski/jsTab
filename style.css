@@ -1,0 +1,108 @@
+body: 
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+table a:link a:visited {
+	color: #666;
+	font-weight: bold;
+	text-decoration: none;
+}
+table a:active,
+table a:hover {
+	color: #868686;
+	text-decoration:none;
+}
+table {
+	font-family:Helvetica;
+	color:#000;
+	font-size:14px;
+	background:#000;
+	margin:20px;
+	border:#000 1px solid;
+	width: 600px;
+
+}
+
+table tr{
+	text-align: center;
+	padding-left:20px;
+}
+
+table tr td {
+	padding-bottom:18px;
+	padding-top: 18px;
+	border-top: 1px solid #ffffff;
+	border-bottom:1px solid #000;
+	border-left: 1px solid #000;
+	background: #f4f4f4;
+
+}
+
+table tr:hover td {
+	background: #E8E8E8;
+}
+.search {
+    border: 2px solid #dadada;
+    border-radius: 7px;
+    width: 200px;
+    font-size: 14px;
+}
+.search:focus { 
+    outline: none;
+    border-color: #f4f4f4;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+.id {
+	width: 17%;
+	font-weight: bold;
+}
+.quant {
+	width: 17%;
+	font-weight: bold;
+}
+.name {
+	font-weight: bold;
+}
+.sort {
+	text-decoration: none;
+	color: #000;
+}
+.active {
+	position: relative;
+	text-decoration: none;
+}
+.active:after {
+	content: '\25b2';
+	height: 0;
+	position: absolute;
+	width: 0;
+
+}
+.rev:after {
+	content: '\25bc';
+	height: 0;
+	position: absolute;
+	width: 0;
+
+}
+.pages a {
+	color: #000;
+	text-decoration: none;
+}
+
+.current {
+	font-weight: bold;
+
+}
+.spinner {
+
+	float: right;
+	margin-right: 20px;
+}

@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Table</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+
+
+<table id="tabela" border="1">
+	<thead id="tabela-head">
+<tr><td colspan="3"><input class="search" type="text" placeholder="Search by name..."><div class="spinner"><img src="2.GIF"></div></td></tr>
+	<tr><td class="id"><a href="#" class="sort" id="id" onclick="sortBy(this.id,1);">id </a></td>
+		<td class="name"><a href="#" class="sort" id="name" onclick="sortBy(this.id,1);">Name </a></td>
+		<td class="quant"><a href="#" class="sort" id="quant" onclick="sortBy(this.id,1);">Quantity </a></td></tr>
+
+	</thead>
+	<tbody id="tabela-body">
+	</tbody>
+	<tfoot>
+<tr><td colspan="3"><div id="pages" class="pages"></div></td></tr>
+	</tfoot>
+</table>
+</body>
+	<script type="text/javascript" src="jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="underscore.js"></script>
+	<script type="text/javascript" src="backend.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	
+
+</html>
